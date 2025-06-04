@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#heatmap {
+  background: white;
+  display: block;
+  margin: auto;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  visibility: hidden;
+}
+
+.cell {
+  stroke: white;
+  stroke-width: 0.5;
+}
+
+#legend {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
